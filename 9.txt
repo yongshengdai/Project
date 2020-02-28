@@ -1,18 +1,3 @@
-前情回顾
-
-1. multiprocessing 模块创建进程
-
-   Process()  创建进程对象
-   start()   启动进程
-   join()  阻塞等待回收进程
-
-2. 进程对象属性和自定义进程类
-
-   pid --> 进程PID号
-   daemon --> 父进程退出是他创建的这个子进程也退出
-
-   自定义进程类： 继承Process-- 重写__init__和run方法
-
 3. 进程池
 
    Pool()
